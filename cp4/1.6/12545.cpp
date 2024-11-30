@@ -43,7 +43,7 @@ int main()
             if (num_q < num_one_zero) {
                 res = -1;
             } else {
-                res += 2 * num_q;
+                res += 2 * num_one_zero;
                 res += (num_q - num_one_zero);
             }
         } else if(num_one_zero == 0 && num_zero_one == 0){
