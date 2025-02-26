@@ -87,7 +87,10 @@
         "valarray": "cpp",
         "variant": "cpp",
         "format": "cpp",
-        "stacktrace": "cpp"
+        "stacktrace": "cpp",
+        "expected": "cpp",
+        "spanstream": "cpp",
+        "stdfloat": "cpp"
     },
     "C_Cpp.default.compilerPath": "/usr/bin/g++"
 }
