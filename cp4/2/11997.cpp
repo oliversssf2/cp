@@ -24,7 +24,7 @@ int main()
     vector<vector<int>> vv;
     while(cin>>n){
         vv = vector<vector<int>>(n);
-        for(int i = 0; i < n; i++){
+        for(size_t i = 0; i < n; i++){
             for(int j = 0; j < n; j++){
                 cin>>tmp;
                 vv[i].push_back(tmp);
@@ -53,7 +53,7 @@ int main()
             kssums.push_back(pq.top());            
         }
         
-        for(auto node : kssums){
+        for(auto& node : kssums){
             cout<<node.sum<<" ";
         }
         cout<<endl;
